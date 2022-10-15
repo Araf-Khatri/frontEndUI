@@ -35,7 +35,8 @@ html {
   .main {
     background: linear-gradient(45deg, #dcdcdc, #e6e6e6);
     border-radius: 2.5rem 0 0 0;
-    padding: 2rem 4rem 0 4rem;
+    height: 100vh;
+    padding: 2rem 4rem 4rem 4rem;
     overflow: scroll;
   }
   /* .cards {
@@ -314,12 +315,12 @@ html {
 
 @media(max-width: 58.5625em) {
     .main {
-        padding: 2rem 3rem 0 3rem;
+        padding: 2rem 3rem 2rem 3rem;
     }
 } 
 @media(max-width: 53.375em) {
     .main {
-        padding: 2rem 2rem 0 2rem;
+        padding: 2rem 2rem 1.5rem 2rem;
     }
 } 
 @media(max-width: 51.1875em) {
@@ -405,4 +406,16 @@ html {
     .main {
         padding: 1rem 0.5rem 0 0.5rem ;
     }
+    input[type="search"]::placeholder {
+      font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 23.4375rem) {
+  html {
+    font-size: 0.5rem;
+  }
+  .outline {
+    width: 100px;
+  }
 }
