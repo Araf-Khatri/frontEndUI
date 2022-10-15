@@ -3,6 +3,7 @@ const cards = document.getElementsByClassName('cards');
 const cancelNavBtn = document.querySelector('.cross-icon');
 const menuBtn = document.querySelector('.menuButton');
 const navPage = document.querySelector('.nav');
+const body = document.querySelector('body');
 
 const html = 
 `
@@ -42,10 +43,13 @@ menuBtn.addEventListener('click', () => {
     navPage.style.display = 'block';
     navPage.style.left = 0;
     navPage.style.opacity = 1;
+    body.style.overflow = 'hidden';
+    
 });
 
 cancelNavBtn.addEventListener('click', () => {
     navPage.style.left = '-700px';
     navPage.style.opacity = 0;
+    body.style.overflow = 'visible';
 })
 
