@@ -336,6 +336,7 @@ input[type="search"]::placeholder {
         opacity: 0;
         width: 100vw;
         height: 100vh;
+        overflow: scroll;
         transition: all 0.3s ease-in;
     }
     .cancelNav {
