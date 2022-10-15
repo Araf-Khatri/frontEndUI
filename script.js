@@ -32,7 +32,7 @@ const html =
 
 `;
 
-const endVal = 18;
+const endVal = 9;
 for(let i = 0; i < endVal; i++) {
     cards[0].insertAdjacentHTML('beforeend', html);
 }
