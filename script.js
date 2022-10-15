@@ -10,7 +10,7 @@ const html =
     <div class="card-flex">
         <div class="OYO-flex">
             <div class="oyoimg">
-                <img src="./img&icons/logo.jpeg" alt="logo" />
+                <img src="./Image_and_icons/logo.jpeg" alt="logo" />
             </div>
             <p>OYO</p>
         </div>
