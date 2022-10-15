@@ -332,7 +332,7 @@ input[type="search"]::placeholder {
         z-index: 100;
         position:absolute;
         top: 0;
-        left: -700px;
+        right: 100%;
         opacity: 0;
         width: 100vw;
         height: 100vh;

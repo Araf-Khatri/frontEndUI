@@ -40,15 +40,16 @@ for(let i = 0; i < endVal; i++) {
 span.textContent = `(${endVal})`
 
 menuBtn.addEventListener('click', () => {
+    console.log('click')
     navPage.style.display = 'block';
-    navPage.style.left = 0;
+    navPage.style.right = '0%';
     navPage.style.opacity = 1;
     body.style.overflow = 'hidden';
     
 });
 
 cancelNavBtn.addEventListener('click', () => {
-    navPage.style.left = '-700px';
+    navPage.style.right = '100%';
     navPage.style.opacity = 0;
     body.style.overflow = 'visible';
 })
